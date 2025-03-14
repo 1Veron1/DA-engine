@@ -1,0 +1,76 @@
+/* Generelle stilarter */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigationsbjælke */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+}
+
+.navbar-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #f39c12;
+}
+
+/* Logo i midten */
+.logo {
+    height: 40px;
+}
+
+/* Hero sektion */
+.hero {
+    position: relative;
+    height: 500px;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-options {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero-option {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-option:hover {
+    background-color: #f39c12;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Se Menu - Pizza Torino</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Din CSS fil -->
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="book-os-til-selskaber.html" class="nav-link">Book os til selskaber</a>
+            <a href="kontakt-os.html" class="nav-link">Kontakt os</a>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html"><img src="logo.png" alt="Pizza Torino Logo" class="logo" /></a>
+        </div>
+        <div class="navbar-right">
+            <a href="se-menu.html" class="nav-link">Se menu</a>
+            <a href="bestil-mad.html" class="nav-link special-btn">Bestil mad</a>
+            <a href="gavekort.html" class="nav-link">Gavekort</a>
+            <a href="om-os.html" class="nav-link">Om os</a>
+        </div>
+    </nav>
+
+    <!-- Hero Image Section -->
+    <section class="hero">
+        <img src="pizza-torino-hero.jpg" alt="Pizza Torino Hero Image" class="hero-image" />
+    </section>
+
+    <!-- Pizza Description Section -->
+    <section class="pizza-description">
+        <h2>Hvordan laver vi vores pizza?</h2>
+        <p>Vores pizzaer bliver lavet med de fineste ingredienser og bagt ved den perfekte temperatur. Vi bruger en træfyret pizzaovn, der opvarmes til omkring 800 grader Fahrenheit (ca. 430 grader Celsius), hvilket giver en sprød skorpe og en lækker smag. Vi stræber efter at tilbyde den bedste pizza i byen, og vores opskrifter har opnået ros fra både kunder og pizzaentusiaster.</p>
+        <p>Vi bruger kun de bedste råvarer som mozzarella, friske tomater og vores egen opskrift på pizzadejen. Vores pizzaer er håndlavede og bagt til perfektion, så hver bid er en smagsoplevelse.</p>
+
+        <h3>Kundernes kommentarer</h3>
+        <p>"Pizzaen fra Pizza Torino er simpelthen fantastisk – smagen er autentisk, og skorpen er perfekt sprød!" – Maria, glad kunde</p>
+        <p>"Den bedste pizza, jeg har smagt i lang tid. Jeg kommer helt sikkert tilbage!" – Jens, loyal kunde</p>
+    </section>
+
+    <!-- Pizza Menu Section -->
+    <section class="pizza-menu">
+        <h2>Vores Menu</h2>
+
+        <!-- Pizza 1 -->
+        <div class="pizza-item">
+            <h3>1. Margherita</h3>
+            <img src="pizza-margherita.jpg" alt="Pizza Margherita" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Den klassiske pizza med tomatsauce, mozzarella og friske basilikumblade.</p>
+            <p><strong>Pris:</strong> 89 DKK</p>
+        </div>
+
+        <!-- Pizza 2 -->
+        <div class="pizza-item">
+            <h3>2. Pepperoni</h3>
+            <img src="pizza-pepperoni.jpg" alt="Pizza Pepperoni" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella og masser af krydret pepperoni.</p>
+            <p><strong>Pris:</strong> 99 DKK</p>
+        </div>
+
+        <!-- Pizza 3 -->
+        <div class="pizza-item">
+            <h3>3. Vegetariana</h3>
+            <img src="pizza-vegetariana.jpg" alt="Pizza Vegetariana" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella, svampe, peberfrugt, løg og oliven.</p>
+            <p><strong>Pris:</strong> 95 DKK</p>
+        </div>
+
+        <!-- Pizza 4 -->
+        <div class="pizza-item">
+            <h3>4. Quattro Stagioni</h3>
+            <img src="pizza-quattro-stagioni.jpg" alt="Pizza Quattro Stagioni" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella, skinke, svampe, oliven og artiskokker.</p>
+            <p><strong>Pris:</strong> 105 DKK</p>
+        </div>
+
+        <!-- Pizza 5 -->
+        <div class="pizza-item">
+            <h3>5. Diavola</h3>
+            <img src="pizza-diavola.jpg" alt="Pizza Diavola" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella og stærk salami.</p>
+            <p><strong>Pris:</strong> 110 DKK</p>
+        </div>
+
+        <!-- Pizza 6 -->
+        <div class="pizza-item">
+            <h3>6. Capricciosa</h3>
+            <img src="pizza-capricciosa.jpg" alt="Pizza Capricciosa" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella, skinke, svampe, artiskok og oliven.</p>
+            <p><strong>Pris:</strong> 105 DKK</p>
+        </div>
+
+        <!-- Pizza 7 -->
+        <div class="pizza-item">
+            <h3>7. Frutti di Mare</h3>
+            <img src="pizza-frutti-di-mare.jpg" alt="Pizza Frutti di Mare" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella og et udvalg af friske skaldyr.</p>
+            <p><strong>Pris:</strong> 115 DKK</p>
+        </div>
+
+        <!-- Pizza 8 -->
+        <div class="pizza-item">
+            <h3>8. Prosciutto e Funghi</h3>
+            <img src="pizza-prosciutto-e-funghi.jpg" alt="Pizza Prosciutto e Funghi" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella, skinke og svampe.</p>
+            <p><strong>Pris:</strong> 98 DKK</p>
+        </div>
+
+        <!-- Pizza 9 -->
+        <div class="pizza-item">
+            <h3>9. Marinara</h3>
+            <img src="pizza-marinara.jpg" alt="Pizza Marinara" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, hvidløg, oregano og olivenolie. En simpel og velsmagende pizza.</p>
+            <p><strong>Pris:</strong> 85 DKK</p>
+        </div>
+
+        <!-- Pizza 10 -->
+        <div class="pizza-item">
+            <h3>10. Pizza Bianca</h3>
+            <img src="pizza-bianca.jpg" alt="Pizza Bianca" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> En hvid pizza med ricotta, mozzarella og frisk rosmarin.</p>
+            <p><strong>Pris:</strong> 105 DKK</p>
+        </div>
+
+        <!-- Pizza 11 -->
+        <div class="pizza-item">
+            <h3>11. Napoli</h3>
+            <img src="pizza-napoli.jpg" alt="Pizza Napoli" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> Tomatsauce, mozzarella, ansjoser og kapers.</p>
+            <p><strong>Pris:</strong> 110 DKK</p>
+        </div>
+
+        <!-- Pizza 12 -->
+        <div class="pizza-item">
+            <h3>12. Pizza Torno Special</h3>
+            <img src="pizza-torno-special.jpg" alt="Pizza Torno Special" class="pizza-image" />
+            <p><strong>Beskrivelse:</strong> En eksklusiv pizza med trøffelolie, mozzarella, skinke og rucola.</p>
+            <p><strong>Pris:</strong> 125 DKK</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pizza Torino | Alle rettigheder forbeholdes</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Din JavaScript fil -->
+</body>
+
+</html>

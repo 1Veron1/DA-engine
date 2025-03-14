@@ -1,0 +1,104 @@
+/* Generelle stilarter */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .navbar .navbar-left a,
+  .navbar .navbar-right a,
+  .navbar .navbar-center a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar .special-btn {
+    background-color: #f0a500;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar .logo {
+    height: 50px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .hero-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0a500;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .hero-btn:hover {
+    background-color: #d78700;
+  }
+  
+  /* Info Section */
+  .info {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .why-us, .catering-options, .social-media, .smiley-info {
+    padding: 20px;
+  }
+  
+  /* Catering Options */
+  .catering-options ul {
+    list-style-type: none;
+  }
+  
+  .catering-options li {
+    margin: 10px 0;
+  }
+  
+  .catering-options a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
