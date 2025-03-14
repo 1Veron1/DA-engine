@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Golden Catering Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="erhverv.html" class="nav-link">Erhverv</a>
+            <a href="privat.html" class="nav-link">Privat</a>
+            <a href="bryllupper.html" class="nav-link">Bryllupper</a>
+            <a href="fast-mad-ordning.html" class="nav-link">Fast mad ordning</a>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html"><img src="logo.png" alt="Logo" class="logo" /></a>
+        </div>
+        <div class="navbar-right">
+            <a href="selskaber.html" class="nav-link">Selskaber</a>
+            <a href="bestil-mad.html" class="nav-link">Bestil mad</a>
+            <a href="gavekort.html" class="nav-link">Gavekort</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="golden-catering-hero.jpg" alt="Golden Catering Hero Image" class="hero-image" />
+    </section>
+
+    <!-- Golden Catering Menu -->
+    <section class="menu">
+        <h2>Golden Catering Menu</h2>
+        <p>Vælg mellem vores eksotiske madretter fra Afghanistan, Indien, Pakistan og Persien. Perfekt til dit arrangement.</p>
+
+        <h3>Menu 1 - 17 Retter</h3>
+        <ol class="menu-list">
+            <li><strong>Ret 1:</strong> Kebab</li>
+            <li><strong>Ret 2:</strong> Hummus</li>
+            <li><strong>Ret 3:</strong> Falafel</li>
+            <!-- Flere retter -->
+        </ol>
+
+        <h3>Menu 2 - 14 Retter</h3>
+        <ol class="menu-list">
+            <li><strong>Ret 1:</strong> Shawarma</li>
+            <li><strong>Ret 2:</strong> Samosa</li>
+            <!-- Flere retter -->
+        </ol>
+
+        <h3>Menu 3 - 9 Retter</h3>
+        <ol class="menu-list">
+            <li><strong>Ret 1:</strong> Fesenjan</li>
+            <li><strong>Ret 2:</strong> Chicken Biryani</li>
+            <!-- Flere retter -->
+        </ol>
+
+        <h3>Menu 4 - 6 Retter</h3>
+        <ol class="menu-list">
+            <li><strong>Ret 1:</strong> Khoresht</li>
+            <li><strong>Ret 2:</strong> Kebabs</li>
+            <!-- Flere retter -->
+        </ol>
+
+        <h3>Vegetarisk Menu</h3>
+        <ol class="menu-list">
+            <li><strong>Ret 1:</strong> Lentil Soup</li>
+            <li><strong>Ret 2:</strong> Falafel</li>
+            <!-- Flere retter -->
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Golden Catering | Alle rettigheder forbeholdes</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

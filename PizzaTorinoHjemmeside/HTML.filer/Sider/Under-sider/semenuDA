@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DA Taste Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="erhverv.html" class="nav-link">Erhverv</a>
+            <a href="privat.html" class="nav-link">Privat</a>
+            <a href="bryllupper.html" class="nav-link">Bryllupper</a>
+            <a href="fast-mad-ordning.html" class="nav-link">Fast mad ordning</a>
+        </div>
+        <div class="navbar-center">
+            <a href="index.html"><img src="logo.png" alt="Logo" class="logo" /></a>
+        </div>
+        <div class="navbar-right">
+            <a href="selskaber.html" class="nav-link">Selskaber</a>
+            <a href="bestil-mad.html" class="nav-link">Bestil mad</a>
+            <a href="gavekort.html" class="nav-link">Gavekort</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="da-taste-hero.jpg" alt="DA Taste Hero Image" class="hero-image" />
+    </section>
+
+    <!-- DA Taste Menu -->
+    <section class="menu">
+        <h2>DA Taste Menu</h2>
+        <p>Her er vores lækre burgermenu. Alle burgere er lavet med friske og kvalitetsingredienser.</p>
+        <ol class="menu-list">
+            <li>
+                <h4>Classic Burger</h4>
+                <p>En klassisk burger med saftigt oksekød, salat, tomat, og vores specielle sauce.</p>
+                <p><strong>Pris:</strong> DKK 95</p>
+                <img src="classic-burger.jpg" alt="Classic Burger" class="menu-image" />
+            </li>
+            <li>
+                <h4>Cheese Burger</h4>
+                <p>En burger med smeltet ost, oksekød, salat og dressing.</p>
+                <p><strong>Pris:</strong> DKK 110</p>
+                <img src="cheese-burger.jpg" alt="Cheese Burger" class="menu-image" />
+            </li>
+            <li>
+                <h4>Spicy Burger</h4>
+                <p>En krydret burger med jalapeños, spicy sauce og oksekød.</p>
+                <p><strong>Pris:</strong> DKK 120</p>
+                <img src="spicy-burger.jpg" alt="Spicy Burger" class="menu-image" />
+            </li>
+            <li>
+                <h4>Veggie Burger</h4>
+                <p>En vegetarisk burger med grillet grøntsager og hummus.</p>
+                <p><strong>Pris:</strong> DKK 95</p>
+                <img src="veggie-burger.jpg" alt="Veggie Burger" class="menu-image" />
+            </li>
+            <li>
+                <h4>Chicken Burger</h4>
+                <p>En saftig kyllingeburger med frisk salat og mayo.</p>
+                <p><strong>Pris:</strong> DKK 105</p>
+                <img src="chicken-burger.jpg" alt="Chicken Burger" class="menu-image" />
+            </li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DA Taste | Alle rettigheder forbeholdes</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
