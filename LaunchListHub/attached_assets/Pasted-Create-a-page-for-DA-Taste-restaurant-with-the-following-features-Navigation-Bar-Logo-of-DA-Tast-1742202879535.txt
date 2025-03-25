@@ -1,0 +1,31 @@
+Create a page for DA Taste restaurant with the following features:
+
+Navigation Bar:
+
+Logo of DA Taste in the center.
+To the left of the logo, include the following menu item:
+"Forside" (Home) – Clicking this should bring the user back to the homepage.
+"Se Menu" (See Menu) – Clicking this should take the user to a page with the menu of 6 burgers.
+To the right of the logo, include the following menu items:
+"Book os til selskaber" (Book us for events) – Clicking this should show information about booking DA Taste for events and catering.
+"Gavekort" (Gift Cards) – Clicking this should show information about how users can buy gift cards for DA Taste, including package options and the option to contact for custom packages.
+Menu Page (Se Menu):
+
+Create a new page showing the 6 burgers on the menu. Each burger should have:
+DA Cheeseburger – with price and a short description of the ingredients.
+DA Chickenburger – with price and a short description.
+DA Spicy Chickenburger – with price and a short description.
+DA Dobbelt Cheeseburger – with price and a short description.
+DA Baconcheeseburger – with price and a short description.
+DA Heartattack – with price and a short description.
+Contact Information Box: On the right side of the page, include a box with the text: "Ring direkte til butikken for levering eller afhentning."
+"Book os til selskaber" (Book us for events) Page:
+
+This page should explain how and why DA Taste is the best for catering and events.
+Include information about how the restaurant prepares the best food for events.
+A small contact box that hovers on the right side of the page without interfering with the main content, displaying the restaurant's contact information.
+"Gavekort" (Gift Cards) Page:
+
+This page should explain how customers can purchase gift cards for DA Taste.
+It should list the available packages, and if users wish to create a custom package, they can contact the restaurant.
+Include a small contact box with the restaurant's information that hovers on the right side of the page.

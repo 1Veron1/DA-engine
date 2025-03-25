@@ -1,0 +1,58 @@
+Create a webpage for a collection of three restaurants called "Hjemme Siden". The three restaurants are:
+
+DA Taste
+Pizza Torino
+Goldencatering
+The webpage should include the following features and content:
+
+General Structure:
+Navigation Bar (Nav-bar):
+
+The navigation bar should be at the top of the page.
+Left side of the bar: Include the website logo.
+Center of the bar: The following menu items:
+"Om os" (About Us): This section should contain:
+Our goal and vision.
+The places we support.
+Information about who we are.
+Pictures and references.
+"Find restaurant": This section should contain a map showing our location at Jordbrovej 25, 8200 Aarhus.
+"Kontakt os" (Contact Us): This section should contain:
+Our contact information, including phone number, social media links, and email.
+Right side of the bar: The following menu item:
+"Fast madordning" (Regular Meal Plan): This section should contain information about how both private individuals and businesses can sign up for a regular meal plan from any of the three restaurants. Interested customers should be able to contact us via a contact form, email, or phone.
+Hero Image Section:
+
+Below the navigation bar, display a large hero image (e.g., a picture of food or the restaurant ambiance).
+On top of the hero image, display hoverable images of the three restaurants. When clicked, these images should link to separate pages for each restaurant:
+DA Taste: Link to a page dedicated to DA Taste with more information about the restaurant.
+Pizza Torino: Link to a page dedicated to Pizza Torino.
+Goldencatering: Link to a page dedicated to Goldencatering.
+Additional Sections:
+
+Each restaurant should have its own separate page with:
+Information about the restaurant, including menu items, history, and unique offerings.
+Photos of the restaurant and food.
+Location and contact details.
+Requirements:
+The website should be responsive (looks good on both desktop and mobile devices).
+Use modern design principles with clean, easy-to-read typography and images.
+Include clear call-to-action buttons on the pages for users to get in touch, order meals, or inquire about meal plans.
+Make the site interactive with hover effects for restaurant images and buttons.
+Key Features to Implement:
+
+Navigation Bar (Nav-bar) with links to:
+
+Om os (About Us)
+Find restaurant (Location Map)
+Kontakt os (Contact Us)
+Fast madordning (Regular Meal Plan)
+Hero Image with hoverable clickable images of each restaurant.
+
+About Us Section with information, images, and references.
+
+Map showing the restaurant's location in Aarhus.
+
+Contact Information: phone number, social media links, email.
+
+Regular Meal Plan section with contact form or instructions to get in touch.
